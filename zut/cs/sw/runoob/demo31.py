@@ -1,0 +1,26 @@
+a=input("输出一个代表星期的字母：")
+a=a.upper()
+if(a=="M"):
+    print("星期一")
+elif(a=="T"):
+    s=input("输出第二个字母：")
+    if(s=="u"):
+        print("星期二")
+    elif(s=="h"):
+        print("星期四")
+    else:
+        print("Error")
+elif(a=="W"):
+    print("星期三")
+elif(a=="F"):
+    print("星期五")
+elif(a=="S"):
+    z=input("输出第二个字母：")
+    if(z=="a"):
+        print("星期六")
+    elif(z=="u"):
+        print("星期日")
+    else:
+        print("Error")
+else:
+    print("Error")
